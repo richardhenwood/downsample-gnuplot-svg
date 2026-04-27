@@ -21,6 +21,16 @@ The lossy SVG compression I have implemented in this repository works as follows
 
 This is lossy compression because the PNG rendering rasterizes the vector information in the figure. Rasterizing converts vector (line) information to pixel information. If you zoom into a figure after lossy compression you will see the pixels of the PNG.
 
+## Screenshots
+
+From Firefox browser
+### Uncompressed SVG
+7.5MB
+<img width="1908" height="977" alt="Screenshot From 2026-04-27 16-00-41" src="https://github.com/user-attachments/assets/fa43a69f-2829-492e-bd69-7291a2da3808" />
+
+### Downsampled SVG
+0.4MB
+<img width="1908" height="977" alt="Screenshot From 2026-04-27 16-01-05" src="https://github.com/user-attachments/assets/03a3dc67-5d19-41b6-9f46-b469a366bf8a" />
 ## Notes
 
  * Compression is effective if you have a high ratio of points to text and hyperlinks.
