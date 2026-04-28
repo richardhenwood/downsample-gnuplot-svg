@@ -26,7 +26,7 @@ set format y "%3.2f"
 set format z "%3.2f"
 set tics
 
-# Adjust this value to increase the data points (and output SVG file)
+# Adjust this value to increase the data points (and size of SVG output file)
 set sample 100000
 
 set style function dots
